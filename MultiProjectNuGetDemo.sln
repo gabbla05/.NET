@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLibrary", "MyLibrary\MyLibrary.csproj", "{EEFD5F00-F644-44FE-B2ED-6A32BFEEB413}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "MyApp\MyApp.csproj", "{EA11D3B4-59A3-42A4-B91A-9D6D3618ECDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyServices", "MyServices\MyServices.csproj", "{90CB095E-A9C6-49C7-83A5-2C7CFBE1FE08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEFD5F00-F644-44FE-B2ED-6A32BFEEB413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFD5F00-F644-44FE-B2ED-6A32BFEEB413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFD5F00-F644-44FE-B2ED-6A32BFEEB413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFD5F00-F644-44FE-B2ED-6A32BFEEB413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA11D3B4-59A3-42A4-B91A-9D6D3618ECDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA11D3B4-59A3-42A4-B91A-9D6D3618ECDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA11D3B4-59A3-42A4-B91A-9D6D3618ECDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA11D3B4-59A3-42A4-B91A-9D6D3618ECDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90CB095E-A9C6-49C7-83A5-2C7CFBE1FE08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90CB095E-A9C6-49C7-83A5-2C7CFBE1FE08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90CB095E-A9C6-49C7-83A5-2C7CFBE1FE08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90CB095E-A9C6-49C7-83A5-2C7CFBE1FE08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {333E11FB-E674-45D8-90DE-1F7464902A83}
+	EndGlobalSection
+EndGlobal

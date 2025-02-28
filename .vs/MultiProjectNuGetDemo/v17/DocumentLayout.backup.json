@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\MultiProjectNuGetDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA11D3B4-59A3-42A4-B91A-9D6D3618ECDC}|MyApp\\MyApp.csproj|c:\\users\\admin\\source\\repos\\multiprojectnugetdemo\\myapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA11D3B4-59A3-42A4-B91A-9D6D3618ECDC}|MyApp\\MyApp.csproj|solutionrelative:myapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CB095E-A9C6-49C7-83A5-2C7CFBE1FE08}|MyServices\\MyServices.csproj|c:\\users\\admin\\source\\repos\\multiprojectnugetdemo\\myservices\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CB095E-A9C6-49C7-83A5-2C7CFBE1FE08}|MyServices\\MyServices.csproj|solutionrelative:myservices\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90CB095E-A9C6-49C7-83A5-2C7CFBE1FE08}|MyServices\\MyServices.csproj|c:\\users\\admin\\source\\repos\\multiprojectnugetdemo\\myservices\\consolelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90CB095E-A9C6-49C7-83A5-2C7CFBE1FE08}|MyServices\\MyServices.csproj|solutionrelative:myservices\\consolelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFD5F00-F644-44FE-B2ED-6A32BFEEB413}|MyLibrary\\MyLibrary.csproj|c:\\users\\admin\\source\\repos\\multiprojectnugetdemo\\mylibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFD5F00-F644-44FE-B2ED-6A32BFEEB413}|MyLibrary\\MyLibrary.csproj|solutionrelative:mylibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsoleLogger.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MultiProjectNuGetDemo\\MyServices\\ConsoleLogger.cs",
+              "RelativeDocumentMoniker": "MyServices\\ConsoleLogger.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\MultiProjectNuGetDemo\\MyServices\\ConsoleLogger.cs",
+              "RelativeToolTip": "MyServices\\ConsoleLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T14:22:19.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ILoggerService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MultiProjectNuGetDemo\\MyServices\\ILoggerService.cs",
+              "RelativeDocumentMoniker": "MyServices\\ILoggerService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\MultiProjectNuGetDemo\\MyServices\\ILoggerService.cs",
+              "RelativeToolTip": "MyServices\\ILoggerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T14:20:45.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MultiProjectNuGetDemo\\MyApp\\Program.cs",
+              "RelativeDocumentMoniker": "MyApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\MultiProjectNuGetDemo\\MyApp\\Program.cs",
+              "RelativeToolTip": "MyApp\\Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T13:59:09.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\MultiProjectNuGetDemo\\MyLibrary\\Class1.cs",
+              "RelativeDocumentMoniker": "MyLibrary\\Class1.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\MultiProjectNuGetDemo\\MyLibrary\\Class1.cs",
+              "RelativeToolTip": "MyLibrary\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T13:55:39.372Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

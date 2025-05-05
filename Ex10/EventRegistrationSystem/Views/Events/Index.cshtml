@@ -1,0 +1,30 @@
+﻿@model List<EventRegistrationSystem.Models.Event>
+
+@{
+    ViewData["Title"] = "Lista wydarzeń";
+}
+
+<h2>Lista wydarzeń</h2>
+<a asp-action="Create" class="btn btn-primary">Dodaj nowe wydarzenie</a>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Tytuł</th>
+            <th>Data</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ev in Model)
+        {
+            <tr>
+                <td>@ev.Title</td>
+                <td>@ev.Date.ToShortDateString()</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@ev.Id">Szczegóły</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

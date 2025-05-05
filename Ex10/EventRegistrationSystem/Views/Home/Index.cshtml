@@ -1,0 +1,66 @@
+﻿@using EventRegistrationSystem.Models
+@{
+    ViewData["Title"] = "System Rejestracji Wydarzeń";
+    var events = InMemoryDatabase.Events;
+}
+
+<h1 class="display-4 mb-4">System Rejestracji Wydarzeń</h1>
+
+<div class="row">
+    <!-- Zarządzanie wydarzeniami -->
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-header bg-primary text-white">📅 Zarządzanie wydarzeniami</div>
+            <div class="card-body">
+                <a asp-controller="Events" asp-action="Index" class="btn btn-outline-primary btn-block mb-2">📄 Lista wydarzeń</a>
+                <a asp-controller="Events" asp-action="Create" class="btn btn-outline-success btn-block">➕ Dodaj nowe wydarzenie</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Zarządzanie uczestnikami -->
+    <div class="col-md-6">
+        <div class="card mb-4">
+            <div class="card-header bg-success text-white">👥 Zarządzanie uczestnikami</div>
+            <div class="card-body">
+                @if (!events.Any())
+                {
+                    <p class="text-danger">Brak wydarzeń do wybrania. Najpierw dodaj wydarzenie.</p>
+                }
+                else
+                {
+                    <form method="get">
+                        <div class="form-group">
+                            <label for="selectedEventId">Wybierz wydarzenie:</label>
+                            <select id="selectedEventId" name="selectedEventId" class="form-control">
+                                @foreach (var ev in events)
+                                {
+                                    <option value="@ev.Id">@ev.Title (@ev.Date.ToShortDateString())</option>
+                                }
+                            </select>
+                        </div>
+
+                        <div class="mt-3">
+                            <a id="addParticipantBtn" class="btn btn-outline-success mr-2">➕ Dodaj uczestnika</a>
+                            <a id="showParticipantsBtn" class="btn btn-outline-info">👁 Pokaż uczestników</a>
+                        </div>
+                    </form>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById("addParticipantBtn")?.addEventListener("click", function () {
+            const id = document.getElementById("selectedEventId").value;
+            window.location.href = `/Participants/Create?eventId=${id}`;
+        });
+
+        document.getElementById("showParticipantsBtn")?.addEventListener("click", function () {
+            const id = document.getElementById("selectedEventId").value;
+            window.location.href = `/Participants/ListByEvent?eventId=${id}`;
+        });
+    </script>
+}

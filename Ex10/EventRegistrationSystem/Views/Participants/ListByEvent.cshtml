@@ -1,0 +1,26 @@
+﻿@model List<EventRegistrationSystem.Models.Participant>
+@{
+    ViewData["Title"] = "Uczestnicy wydarzenia";
+}
+
+<h2>Uczestnicy wydarzenia: @ViewBag.EventTitle</h2>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th>Imię i nazwisko</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Name</td>
+                <td>@p.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-controller="Events" asp-action="Index" class="btn btn-secondary">Powrót do listy wydarzeń</a>
